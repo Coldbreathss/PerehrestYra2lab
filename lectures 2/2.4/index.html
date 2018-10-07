@@ -5,25 +5,16 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <form class="form-3" onsubmit = "valid(this)">
-    <p class="clearfix">
-        <label for="email">Логин & EMAIL</label>
-        <input type="text" name="email" id="email" placeholder="email" placeholder="Логин & EMAIL">
-    </p>
-    <p class="clearfix">
-        <label for="password">Пароль</label>
-        <input type="password" name="password" id="password" placeholder="Пароль"> 
-    </p>
-    <p class="clearfix">
-        <input type="checkbox" name="remember" id="remember">
-        <label for="remember">Запомнить</label>
-    </p>
-    <p class="clearfix">
-        <input  type="submit" name="submit" value="Войти">
-    </p>       
+<form action="" method="post" name="test" id="form">
+    <label for="email">Логин & EMAIL</label>
+    <input type="text" name="email" id="email"  placeholder="Логин & EMAIL">
+    <label for="password">Пароль</label>
+    <input type="password" name="password" id="password" placeholder="Пароль"> 
+    <input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Вход">
 </form>
     <script src="formautor.js"></script>
   </body>
   
   
 </html>
+
