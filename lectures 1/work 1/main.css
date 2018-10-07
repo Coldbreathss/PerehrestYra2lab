@@ -1,0 +1,49 @@
+body {
+	background: #fefefe;
+}
+table {
+	width: 100%;
+	border-collapse: separate;
+	border: 2px solid black;
+	border-radius: 10px;
+	
+}
+#myDIV {
+	visibility: hidden;
+	width: 100%;
+
+}
+
+#myDIV1 {
+	visibility: hidden;
+}
+
+th {
+    background: #b0e0e6; /* Цвет фона */
+    border: 1px solid black;
+   }
+td {
+	text-align: center;
+	border: 1px solid black;
+}   
+
+.button  {
+	text-decoration:none;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+	background: #b0e0e6;
+	cursor: pointer;
+
+}
+
+.button a {
+	width: 200px;
+}
+
+
+
+.button:hover{
+	box-shadow:  0 0 10px 10px rgba(221, 221, 221, 1);
+	
+}

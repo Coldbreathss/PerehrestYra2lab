@@ -1,0 +1,19 @@
+  if (operation == 1) {
+    result = num1 + num2;
+  }
+  else if (operation == 2) {
+    result = num1 - num2;
+  }
+  else if (operation == 3) {
+    result = num1 * num2;
+  }
+  else if (operation == 4){
+    result = num1 / num2;
+  }
+  else if (operation == 5){
+  	result = Math.sqrt(num1);
+  }
+  else  {
+  	result =1;
+	while(num1) result *= num1--; 
+	}

@@ -1,0 +1,75 @@
+body{
+	background: url(img/Layer.png) no-repeat 50% 0 #0e0e0e;
+	font:12px/1.67 Arial, Helvetica, sans-serif;
+	padding: 40px 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.main-block:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+.main-block {
+  background: url(img/m-blof) repeat-y 700px 0 #fff; 
+  padding-bottom: 70px;
+}
+
+.page-block {
+  background: url(img/bg.slider.png) no-repeat 0 0;
+  color: #fff;
+  padding: 20px 41px;
+  font-size: 20px;
+}
+
+main input {
+	margin-left: 10px;
+	margin-top: 50px;
+	width: 100px;
+}
+main button {
+	display: inline-block;
+	width: 85px;
+	height: 85px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+main button:hover {
+	background: ;
+	box-shadow: 0 3px rgba(0,0,0,.25),inset 0 2px 0 rgba(0,0,0,.1),inset 00 20px rgba(0,0,0,.1);
+}
+.main-block hr {
+	
+	margin-top: 10px;
+}
+
+main span {
+	margin-left: 15px;
+}
+
+main p {
+	margin-left: 15px;
+	text-align: center;
+	font-size: 28px;
+}
+
+main img {
+	margin-left: 15px;
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	display:block;
+}
+}
+

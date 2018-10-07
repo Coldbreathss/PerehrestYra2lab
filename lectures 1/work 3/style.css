@@ -1,0 +1,8 @@
+input[type=text]{
+    width: 35px;
+    text-align: center;
+    margin: 0 2px;
+}
+hr {
+	width: 400px;
+}
